@@ -1,0 +1,14 @@
+{
+  "name": "explorer_stage_08_nodejs",
+  "version": "1.0.0",
+  "description": "API desenvolvida no projeto Explorer da Rocketseat - Modulo: Stage 08 - NodeJS.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
