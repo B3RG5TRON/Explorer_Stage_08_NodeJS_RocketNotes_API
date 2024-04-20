@@ -1,4 +1,4 @@
-const AppError = require("../errors/AppError")
+const AppError = require("../utils/AppError")
 
 
 class UsersController {
