@@ -1,6 +1,6 @@
 const AppError = require("../utils/AppError")
 
-const sqliteConnection = require("../database/sqlite-connection")
+const sqliteConnection = require("../database/sqlite")
 
 
 class UsersController {
