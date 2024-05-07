@@ -1,7 +1,6 @@
-const { hash, compare } = require("bcryptjs")
-const AppError = require("../utils/AppError")
-const sqliteConnection = require("../database/sqlite")
-
+const { hash, compare } = require('bcryptjs')
+const AppError = require('../utils/AppError')
+const sqliteConnection = require('../database/sqlite')
 
 class UsersController {
   async create(request, response) {
@@ -32,7 +31,7 @@ class UsersController {
     const user = await database.get("SELECT * FROM users WHERE id = (?)", [id])
 
     if (!user) {
-      throw new AppError("Usuário não encontrado.")
+      throw new AppError("Usuário não encontrado")
     }
 
     const userWithUpdatedEmail = await database.get("SELECT * FROM users WHERE email = (?)", [email])
@@ -45,14 +44,14 @@ class UsersController {
     user.email = email ?? user.email
 
     if (password && !old_password) {
-      throw new AppError("Você precisa informar a senha antiga para alterar a senha.")
+      throw new AppError("Você informar a senha antiga para definir a nova senha")
     }
 
     if (password && old_password) {
       const checkOldPassword = await compare(old_password, user.password)
 
       if (!checkOldPassword) {
-        throw new AppError("Senha antiga incorreta.")
+        throw new AppError("A senha antiga não confere.")
       }
 
       user.password = await hash(password, 8)
@@ -68,8 +67,8 @@ class UsersController {
       [user.name, user.email, user.password, id]
     )
 
-    return response.status(200).json()
+    return response.json()
   }
 }
 
-module.exports = UsersController;
+module.exports = UsersController
