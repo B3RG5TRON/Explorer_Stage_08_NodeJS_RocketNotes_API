@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src=".github/logo-rocketnotes.svg" title="Rocketnotes" alt="" width="30px" />
+    <img src=".github/logo-rocketnotes.svg" title="RocketNotes" alt="" width="30px" />
     RocketNotes API
 </h1>
 
@@ -36,10 +36,10 @@ Além disto é bom ter um editor para trabalhar com o código, como: [VSCode](ht
 
 ```bash
 # Clone este repositório
-$ git clone git@github.com:pabloxt14/Rocketnotes-API.git
+$ gh repo clone B3RG5TRON/Explorer_Stage_08_NodeJS_RocketNotes_API
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd Rocketnotes-API
+$ cd Explorer_Stage_08_NodeJS_RocketNotes_API
 
 # Configure as variáveis de ambiente em um arquivo .env na raiz do projeto (use o arquivo .env.example como base)
 
@@ -98,7 +98,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[PM2](https://pm2.keymetrics.io/)**
 -   **[Jest](https://jestjs.io/pt-BR/)**
 
-> Para mais detalhes das dependências gerais da aplicação veja o arquivo [package.json](./package.json)
+> Para mais detalhes das dependências gerais da aplicação veja o arquivo: [package.json](https://github.com/B3RG5TRON/Explorer_Stage_08_NodeJS_RocketNotes_API/blob/main/package.json)
 
 ---
 
