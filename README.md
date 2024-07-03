@@ -1,12 +1,12 @@
 <h1 align="center">
-    <img src=".github/logo-rocketnotes.svg" title="RocketNotes" alt="" width="30px" />
-    RocketNotes API
+    <img src=".github/logo-rocketnotes.svg" title="RocketNotes" alt="RocketNotes" width="30px" />
+    RocketNotes
 </h1>
 
 
 ## 💻 About
 
-Este repositório se trata do back-end da aplicação RocketNotes ([link do front-end](https://github.com/B3RG5TRON/Explorer_Stage_09_ReactJS_RocketNotes)). Na qual está é uma aplicação web onde os usuários podem realizar um cadastrar e gerar anotações sobre assuntos que desejar.
+**Este repositório se trata do back-end da aplicação RocketNotes** ([link do front-end](https://github.com/B3RG5TRON/Explorer_Stage_09_ReactJS_RocketNotes)). Esta aplicação disponibiliza aos usuários a possibilidade de realizar um cadastrar e gerar anotações sobre assuntos que desejar.
 
 Vale ressaltar que este projeto faz parte da trilha/curso **Explorer** oferecida pela [Rocketseat](https://www.rocketseat.com.br/).
 
@@ -14,13 +14,15 @@ Vale ressaltar que este projeto faz parte da trilha/curso **Explorer** oferecida
 
 ## 🔗 Deploy
 
-O acesso ao deploy da API fica disponível através da seguinte URL base: (disponível em breve)
+Para acessar o deploy da API da aplicação basta clicar no link a seguir: (Disponível em breve)
 
 > Obs: a aplicação pode demorar um pouco para entrar na primeira execução depois de um tempo, devido ao back-end estar rodando através do plano gratuito na plataforma de hospedagem.
 
 ---
 
 ## 🚀 How it works
+
+Este é um projeto **Full Stack**, contendo **Front-end** desenvolvido em **React** e o **Back-end** desenvolvido em **Node**. No entanto, **este repositório** se trata apenas do **Back-end**, para acessar o repositório do Front-end clique neste **[link](https://github.com/B3RG5TRON/Explorer_Stage_09_ReactJS_RocketNotes)**
 
 ### Pré-requisitos
 
